@@ -7,7 +7,7 @@ Welcome! This repository is dedicated to enhancing the security of WordPress web
 - [License](#license)
 - [Disclaimer](#disclaimer)
 
-### Instalation
+### Installation
 1. Copy the block from "Include's area" from "functions.php".
 2. Copy the folder "inc" inside your web directory /wp-content/themes/theme-name/
 
