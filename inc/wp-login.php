@@ -25,7 +25,6 @@ function remove_lostpassword_text ( $text ) {
 
 add_filter( 'gettext', 'remove_lostpassword_text' );
 
-//Warning message - wp-login.php page
 /* Remote "Lost your password?" option - wp-login.php page
  * Goal: Dismiss DDoS attacks.
  * */
