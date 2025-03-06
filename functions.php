@@ -16,6 +16,7 @@
  * By the way: The folder doesn't exists originally. It need to be created.
  */
 include_once __DIR__ . '/inc/api-hardening.php';
+include_once __DIR__ . '/inc/wp-login.php';
 /*
  * End of "Include's area"
  */
