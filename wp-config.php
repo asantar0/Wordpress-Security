@@ -89,16 +89,15 @@ if ( ! defined( 'ABSPATH' ) ) {
 /** Sets up WordPress vars and included files. */
 require_once ABSPATH . 'wp-settings.php';
 
-/**Agregado para que no aparezcan los logs de errores en la página web**/
+/**Avoiding display log messages on the web**/
 ini_set('log_errors','On');
 ini_set('display_errors','Off');
 ini_set('error_reporting', E_ALL );
 
-/** Desactivar edicion tema online **/
+/** Disable file edit via GUI **/
 define( 'DISALLOW_FILE_EDIT', true );
-@ini_set( 'max_execution_time' , '300' );
 
-/* Configuration SMTP Server */
+/* SMTP Server configuration*/
 define( 'SMTP_USER', 'sample@example.com' );
 define( 'SMTP_PASS', 'password' );  
 define( 'SMTP_PORT', '587' );
