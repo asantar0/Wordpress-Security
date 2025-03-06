@@ -17,6 +17,7 @@
  */
 include_once __DIR__ . '/inc/api-hardening.php';
 include_once __DIR__ . '/inc/wp-login.php';
+include_once __DIR__ . '/inc/SMTP-configuration.php';
 /*
  * End of "Include's area"
  */
